@@ -1,0 +1,62 @@
+ /*
+   Author: Brett F
+   Date: 12/4/2018
+   
+   Filename: SkillsInterests.css
+*/
+ /*Special Link Styles*/
+table a:hover{
+    color: red;
+}
+
+
+/*Text Styles to go along with the images*/
+p{
+  color: white;
+  font-size: 1.5em;
+}
+
+p#footer{
+  margin-top: 450px;
+  color: black;
+  text-align: left;
+}
+
+/*Header Styles*/
+h1{
+  color: white;
+  font-size: 2em;
+  letter-spacing: 0em;
+} 
+
+
+/*Footer Styles*/
+p#footer{
+  color: red;
+  order:100;
+}
+/*Phone Styles*/
+@media only screen and (max-width: 480px){
+ p#footer{
+   display: none;
+ }
+}
+/*Tablet Styles*/
+@media only screen and (min-width:481px) {
+  p#footer{
+    display: none;
+    
+  }
+}
+/*Desktop Styles*/
+@media only screen and (min-width:769px){
+  body{
+    background: url(background.jpg) bottom right/ 50% no-repeat content-box,
+                url(background2.jpg) bottom left/50% no-repeat content-box;
+    background-color: black;
+    width: 70%;
+    height: 100%;
+    
+}
+ 
+} 
